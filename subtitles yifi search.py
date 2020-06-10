@@ -10,7 +10,7 @@ from bs4 import BeautifulSoup
 
 movie = "Insurgent"
 base_link = "https://yts-subs.com"
-download_directory = "E:\Quick access\Desktop\Subtitrari"
+download_directory = "E:\Quick access\Desktop"
 
 
 def find_movie(movie):
@@ -63,5 +63,5 @@ def download(link):
 
 
 # download_directory = input("Where to Save Subtitles? : ")
-# movie = input("Ce film vrei ?")
+movie = input("Ce film vrei ?")
 find_movie(movie)
